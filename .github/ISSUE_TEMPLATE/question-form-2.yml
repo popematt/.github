@@ -1,0 +1,13 @@
+name: Question (form 2)
+description: Ask a question about this project
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 'Question'
+      placeholder: |
+        Ask a question about how this project works, how to use this project, or anything else related to this project.
+        Be mindful of the [XY Problem](https://xyproblem.info/) so that we can best help you.
+    validations:
+      required: true
